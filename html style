@@ -4,32 +4,30 @@
     <title>
 hi this is  the task of html
  </title>
+ <style>
+    body{
+        background:yellow;
+        color;black
+    }
+ </style>
 </head>
 <body>
     <!--TODO!ADD LINK TO TIGERS picture--->
     <p style="font-size:150%;">cats are a special features.</p>
-    <p style="background-color:olivedrab;">tigers are related to cats</p>
-<a href="#">image scr="c:/users/hp/downlod.jpg"alt="green areas</a>
-    <a href="https://www.google.com"target="_blank">this is a link to g-mail</a>
-    <ul>
+    <p style="background-color: brown;">tigers are related to cats</p>
+<a href="www.tigersweb.com"target="_blank">click hear</a>
+<img src="class.jpg"alidth="144"height="102">
+    <ol>
         <li>wild forest</li>
         <li> national parks</li>
-    </ul>
-    <img src="c:/users/hp/downlod.jpg"alt="wild forest">
-    <img src="c:/users/hp/downlod.jpg"alt="national parks">
+    </ol>
     <h1 style="font-size:200%;">This is a ruth webpage</h1>
-    <h2 style="font-family:verdana;">This is ruth web page</h2>
-    <h3 style="color:gray;">This is ruth web page</h3>
-    <h4 style="text-align:center;">Centered Heading</h4>
-    <h5>this is ruth web page</h5>
-    <h6>this is ruth web page</h6>
+     <h1 style="background-color:red;">This is a heading</h1>
+     <font size="+1" color="red"face="arial">origin of TIGERS</font>
     <pre>
-the origon of smart tigers
-the origon of smart tigers
-the origin of smart tigers      
+the origon of smart tigers      
     </pre>
     <href="https://github.com/frjtert4/ruthgosaye.html/blob/main/ruth.html"my git hub</a>
- <button type="submit">submit</button>button>
 </footer>
 </body>  
 </html>
