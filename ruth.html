@@ -1,35 +1,50 @@
-<!doc type> 
+<!DOCTYPE html>
 <html>
 <head>
-    <title>
-hi this is  the task of html
- </title>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  border: 1px solid #04AA6D;
+  background-color: #f1f1f1;
+  text-decoration: none;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding:8px 16px;
+  text-decoration: none;
+  text-align: center;
+}
+
+li a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+li{
+  border: 1px solid purple;
+}
+</style>
 </head>
 <body>
-<p>cats are a special features</p>  
-    <a href="https://www.google.com"target="_blank">this is a link to g-mail</a>
-    <ol>
-        <li>cats evolution</li>
-        <li>from tigers</li>
-    </ol>
-    <h1>this is ruth web page</h1>
-    <h2>this is ruth web page</h2>
-    <h3>this is ruth web page</h3>
-    <h4>this is ruth web page</h4>
-    <h5>this is ruth web page</h5>
-    <h6>this is ruth web page</h6>
-    <pre>
-the origon of tigers
-the origon of tigers
-the origin of tigers      
-    </pre>
-    <href="https://github.com/frjtert4/ruthgosaye.html/blob/main/ruth.html"my git hub</a>
-</body>    
+
+<h2>Vertical Navigation Bar</h2>
+<p>In this example, we create an "active" class with a green background color and a white text. The class is added to the "Home" link.</p>
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li class="active"><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+</body>
 </html>
-
-
-    
-
-    
-    
-    
